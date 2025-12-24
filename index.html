@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link href="/src/style.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <title>qrew</title>
+</head>
+
+<body class="bg-gray-900 h-screen top-0 overflow-auto">
+  <div id="header"></div>
+  <main class="p-6">
+
+    <div class="md:mx-5 flex">
+
+      <aside
+        class="w-1/2 flex flex-col md:w-1/5 border-2 text-gray-300 p-2 md:p-4 h-90 md:h-[calc(100vh-100px)] justify-between">
+        <nav>
+          <ul class="space-y-2 md:space-y-3 text-xl md:text-2xl">
+            <li class="hover:text-lime-400 cursor-pointer group mx-2 md:mx-4">
+              <span class="hidden group-hover:inline-block">
+                [ >
+              </span>
+              Dashboard
+              <span class="hidden group-hover:inline-block"> ] </span>
+            </li>
+            <li class="hover:text-lime-400 cursor-pointer group mx-2 md:mx-4">
+              <span class="hidden group-hover:inline-block">
+                [ >
+              </span>
+              Products
+              <span class="hidden group-hover:inline-block"> ] </span>
+            </li>
+            <li class="hover:text-lime-400 cursor-pointer group mx-2 md:mx-4">
+              <span class="hidden group-hover:inline-block">
+                [ >
+              </span>
+              System info
+              <span class="hidden group-hover:inline-block"> ] </span>
+            </li>
+            <li class="hover:text-lime-400 cursor-pointer group mx-2 md:mx-4">
+              <span class="hidden group-hover:inline-block">
+                [ >
+              </span>
+              QREW excl.
+              <span class="hidden group-hover:inline-block"> ] </span>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="text-xl ms-5 text-gray-400">
+          access level: public
+        </div>
+      </aside>
+
+      <section class="w-1/2 md:w-4/5 ml-5 mt-2 text-gray-300">
+        <h1 class="text-xl md:text-5xl text-gray-300 uppercase">
+          <span class="typewriter">initializing crew system</span>
+        </h1>
+
+        <p class="text-lg md:text-3xl my-4 md:my-5">SYSTEM MODE: PUBLIC </p>
+
+        <p class="text-lg md:text-3xl my-4 md:my-5">This interface provides limited access to the QREW product system.</p>
+
+        <p class="text-lg md:text-3xl my-4 md:my-5">Some modules require elevated clearance.</p>
+
+        <p class="text-lg md:text-3xl my-4 md:my-5">AVAILABLE ACTIONS:</p>
+
+        <h1 class="text-lg md:text-3xl text-gray-300 group hover:text-lime-400 hover:cursor-pointer">
+          [ <span class="hidden group-hover:inline-block"> >&nbsp;</span>Enter System ]
+        </h1>
+      </section>
+
+    </div>
+
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
